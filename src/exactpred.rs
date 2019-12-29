@@ -1168,5 +1168,4 @@ mod test {
         // the result predicates.c gives
         assert!(incircle(&pa, &pb, &pc, &pd) == 7.226864249343135e-30);
     }
-
 }

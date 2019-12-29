@@ -11,7 +11,13 @@ fn main() {
     assert_eq!(
         run_robust2d(p1_x, p1_y, p2_x, p2_y, p3_x, p3_y),
         run_exactpred(p1_x, p1_y, p2_x, p2_y, p3_x, p3_y),
-        "({}, {}) ({}, {}) ({}, {})", p1_x, p1_y, p2_x, p2_y, p3_x, p3_y
+        "({}, {}) ({}, {}) ({}, {})",
+        p1_x,
+        p1_y,
+        p2_x,
+        p2_y,
+        p3_x,
+        p3_y
     );
 }
 
